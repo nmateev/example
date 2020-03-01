@@ -19,6 +19,7 @@ node {
     stage ('Archive') {
         archiveArtifacts 'build/libs/*.jar'
    }
+   echo 'Changed from SCM' 
    
    cleanWs()
 }
