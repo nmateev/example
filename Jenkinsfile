@@ -1,3 +1,3 @@
-@Library('my-shared-library') _
+@Library('ci-cd-library') _
 
 buildGradlePipeline()
