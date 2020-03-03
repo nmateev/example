@@ -8,4 +8,8 @@
             ])
     ])
 
-buildGradlePipeline()
+def parameters = [
+        name : 'Landlord Communication'
+]
+
+buildGradlePipeline(parameters)
